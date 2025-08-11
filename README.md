@@ -1,33 +1,37 @@
-# 🎙️ Streamlit Speech Recognition App with Transcript
+# 🎙️ Speech Recognition App with Transcript
 
-A simple speech-to-text web app built with **Streamlit** and **SpeechRecognition** that supports multiple Indian languages and keeps a **running transcript** of all recognized speech.
+🧠 Powered by Python + Streamlit + Google Speech Recognition API
 
----
-
-## ✨ Features
-
-- 🎤 Record voice using your microphone
-- 🌐 Choose from multiple Indian languages
-- 📝 Automatic transcript history of all recognized speech
-- 🗑 Clear transcript with one click
-- 📜 Powered by Google Speech Recognition API
+This is a multi-language **Speech-to-Text** web application built using **Streamlit** for the interface and the **SpeechRecognition** library for audio processing. It allows you to speak in various Indian languages and get instant transcriptions. The app also maintains a running transcript of everything you say in the session.
 
 ---
 
-## 📋 Supported Languages
+## 📌 Features
 
-| Language       | Code   |
-|----------------|--------|
-| English (India) | en-IN |
-| Hindi           | hi-IN |
-| Punjabi         | pa-IN |
-| Bengali         | bn-IN |
-| Tamil           | ta-IN |
-| Telugu          | te-IN |
-| Marathi         | mr-IN |
-| Gujarati        | gu-IN |
-| Kannada         | kn-IN |
-| Malayalam       | ml-IN |
-| Urdu            | ur-IN |
+- 🎤 **Live Speech Recognition** using your microphone
+- 🌐 **Multiple Indian Language Support**
+- 📝 **Running Transcript** of recognized speech
+- 🗑 **Clear Transcript** with one click
+- ⚡ **Simple & Interactive Web UI** built with Streamlit
+- 📜 **Powered by Google Speech Recognition API**
+
+---
+
+## 🧠 How it Works
+
+The app uses Python’s **SpeechRecognition** library to capture audio from your microphone, sends it to the **Google Speech Recognition API**, and returns the detected text.  
+Streamlit is used to make the interface interactive and easy to use. Session state is leveraged to keep the transcript persistent during the app's run.
+
+---
+
+## 📁 Project Structure
 
 
+File Structure
+speech-recognition-app/
+│
+├── app.py               # Main Streamlit app
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
+
+Linkedin id:https://www.linkedin.com/in/abhey-garg-032b53289/
